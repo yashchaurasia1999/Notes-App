@@ -1,0 +1,15 @@
+@media screen and (min-width: 380px) {
+   /* img{
+    height: 400px;
+    width: 200px;
+   } */
+   .notes-content{
+    height:200px;
+    width: auto;
+   }
+  }
+  .modal-group{
+    font-weight: bold;
+    font-size: 20px;
+    color:#000000;
+  }

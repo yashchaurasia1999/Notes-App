@@ -1,0 +1,187 @@
+
+.notesNav{
+    height:60px;
+    width:1140px;
+    background:#E8E8E8;
+    display:flex;
+}
+.groupName{
+    margin:15px 15px;
+    font-weight:bold;
+
+}
+.logo{
+height:50px;
+width:50px;
+border-radius:50%;
+padding: 12px 14px;
+margin:5px;
+margin-left: 15px;
+color:white;
+font-weight: bold;
+}
+.notesContent{
+    height:460px;
+    width:1140px;
+    background:#F7ECDC;
+}
+.notesContentResp{
+    height:400px;
+    width:360px;
+    background:#F7ECDC;
+    display: flex;
+    overflow-y:scroll;
+}
+.notesInput{
+    background:#E8E8E8;
+    height:218px;
+    width:1137px;
+    padding:10px 15px;
+    position: relative;
+}
+.notesInputResp{
+    background:#E8E8E8;
+    height:218px;
+    width:350px;
+    padding:10px 15px;
+    position: relative;
+}
+.input{
+    margin:10px 5px;
+   
+}
+.inputResp{
+    margin:10px 1px;
+}
+.inputArea{
+    border-radius:8px;
+    padding:10px 15px;
+    position: absolute;
+    right:100px;
+}
+.inputAreaResp{
+    border-radius:8px;
+    padding:10px 15px;
+    position: absolute;
+    /* right:100px; */
+}
+.group{
+    display: flex;
+    margin: 8px 5px 8px 5px;
+    padding-top:14px;
+    border-radius:32px 0px 0px 32px;
+}
+.groupLogo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+}
+.groupName{
+    padding-top: 4px;
+    padding-left: 3px;
+    font-weight: bold;
+}
+.col{
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    padding:15px;
+}
+.colorName{
+    display: flex;
+     height: 20px;
+     width: 90px;
+}
+.leftScroll{
+    height: 600px;
+    overflow-y: auto;
+}
+.labelColor{
+    font-weight:bold;
+    color:black;
+}
+.inputColor{
+    width:270px;
+    border-radius:20px;
+    border :1px solid #cccccc;
+    padding-left:10px;
+}
+.labelInput{
+    font-weight:bold;
+    color:black;
+}
+
+.image{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.pic{
+    max-width: 100%;
+     height: auto;
+     margin-top: 150px;
+}
+.defaultContent{
+    height:739px;
+    background-color:#F7ECDC;
+    width: 1139px;
+}
+
+  
+  /* Styles for screens with a maximum width of 600px (adjust as needed) */
+  @media (max-width: 300px) {   /* On screens that are 300px or less, set the background color to blue */
+    /* .notesContent,
+    .defaultContent {
+      
+      display: block;
+    } */
+  
+    .not {
+        display: block
+
+    }
+  }
+  
+  @media (min-width: 301px) {   /* If screen size is more than 301px wide, set the font-size of <div> to 80px*/
+    .not {
+      
+      display: block;
+    }
+  
+    .notesContent,
+    .defaultContent {
+        display: none; 
+    }
+    .responsiveNotes{
+        display: block;
+        /* height: 100vh;
+        width: 100vw; */
+        overflow: hidden;
+    }
+  }
+  @media (min-width: 900px) {   /* If screen size is more than 301px wide, set the font-size of <div> to 80px*/
+    .not {
+      
+      display: block;
+    }
+  
+    .notesContent,
+    .defaultContent {
+        display: block; 
+    }
+  }
+  .spand{
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-left: -20px; */
+  }
+  .time{
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-left: -20px; */
+  }
